@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>spring boot test</title>
+  </head>
+  <body>
+    <h1>test html 3 page</h1>
+    <h2>/templates/html/index.html</h2>
+    <h1 th:text="${name}">Greeting!</h1>
+    <hr />
+    <div>
+      <a>thymeleaf 기본사용</a>
+      <div>
+        <a>thymeleaf 사용방법 4가지</a>
+        <ul>
+          <li>1.변수식 ${}</li>
+          <li>2.메세지방식 #{}</li>
+          <li>3.객체변수식 *{}</li>
+          <li>4.링크방식 @{}</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.thymeleaf.org/download.html"
+      >thymeleaf 다운로드 가기</a
+    >
+  </body>
+</html>
